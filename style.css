@@ -16,7 +16,7 @@
     display: grid;
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .buttons > div{
@@ -30,4 +30,15 @@
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+}
+
+#equal {
+    background-color: #5555ff;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
 }
